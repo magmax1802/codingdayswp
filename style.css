@@ -1,1 +1,78 @@
-/* Silence is golden */
+body {
+    background: #dbdbf1;
+    display: block;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background: #5cb7e2;
+    text-align: center;
+    padding: 1px;
+}
+
+.header nav ul {
+    margin: 10px;
+    padding: 0;
+}
+
+img.logo {
+    width: 80px;
+    height: auto;
+}
+li {
+    display: inline-block;
+    width: 32%;
+}
+section.section1 {
+    background: pink;
+    text-align: center;
+    padding: 10px;
+}
+p {
+    margin: 0;
+}
+section.section2 {
+    background: #5cb7e2;
+    overflow: hidden;
+}
+img.imagesection2 {
+    height: 65px;
+    width: auto;
+}
+article.article2 {
+    background: white;
+}
+article.articlesection2 {
+    display: inline-block;
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+p.paragraphesection2 {
+    text-align: left;
+    padding: 11px;
+}
+section.section3 {
+    background: pink;
+    padding: 130px;
+}
+footer {
+    background: cyan;
+    padding: 20px;
+    text-align: center;
+    font-size: 11px;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  article.articlesection2 {
+    width: 100%;
+  }
+}
+@media all and (max-width: 320px) {
+  article.articlesection2 {
+    width: 100%;
+    }
+  p.paragraphesection2 {
+    display: none;
+  }
+}

@@ -11,6 +11,7 @@
 <head >
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -24,4 +25,12 @@
 <body>
 	<header class="header">
 		<!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le header de toutes vos pages  -->
+		<img class="logo" src="chatonheader.jpg" alt="chaton mignon" title="chaton mignon">
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Liste 1</li>
+        <li>Liste 2</li>
+      </ul>
+    </nav>
 	</header>
