@@ -25,7 +25,7 @@
 <body>
 	<header class="header">
 		<!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le header de toutes vos pages  -->
-		<img class="logo" src="chatonheader.jpg" alt="chaton mignon" title="chaton mignon">
+		<img class="logo" src="http://BrinMaxence.students.coding-days.com/wp-content/uploads/2016/10/chatonheader.jpg" alt="chaton mignon" title="chaton mignon">
     <nav>
       <ul>
         <li>Accueil</li>
